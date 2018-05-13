@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>汽车之夜</title>
+	<link rel="stylesheet" type="text/css" href="css/gwidth.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/swiper.js"></script>
+</head>
+<body>
+	<header>
+		<div class="na">
+			<p class="fr">
+				<a href="#">汽车经销大大全</a>
+				<a href="#">北京车展</a>
+				<a href="#">全国行情</a>
+				<a href="#">成都分站</a>
+				<a href="#">网上车贷</a>
+				<a href="#">登录</a><em>|</em>
+				<a href="#">注册</a>
+				<a href="3">[收藏本站]</a>
+			</p>
+		</div>
+	</header>
+	<div class="find">
+		<div class="logo">
+			<img src="images/logo.png">
+			<p class="one">
+				<span>
+					<a href="###" class="blod">新车</a>
+					<a href="#">国产</a>
+					<a href="#">进口</a>
+					<a href="#">谍照</a>
+				</span>
+				<span>
+					<a href="###" class="blod">咨询</a>
+					<a href="#">行业</a>
+					<a href="#">车企动态</a>
+					<a href="#">原创</a>
+				</span>
+				<span>
+					<a href="###" class="blod">测评</a>
+					<a href="#">专业测评</a>
+					<a href="#">对比测试</a>
+					<a href="#">深度解释</a>
+				</span>
+				<span>
+					<a href="#" class="blod">导购</a>
+					<a href="#" class="blod">行情</a>
+				</span>
+				<span>
+					<a href="#" class="blod">电子杂志</a>
+					<a href="#">评刊</a>
+				</span>
+			</p>
+			<p class="two">
+				<a href="#">图库</a><em>|</em>
+				<a href="#">问答</a><em>|</em>
+				<a href="#">体验</a><em>|</em>
+				<a href="#">汽车赛事</a><em>|</em>
+				<a href="#">汽车改装</a><em>|</em>
+				<a href="#">自驾游</a><em>|</em>
+				<a href="#">汽车技术</a><em>|</em>
+				<a href="#">汽车设计</a><em>|</em>
+				<a href="#">用车养车</a><em>|</em>
+				<a href="#">二手车</a><em>|</em>
+				<a href="#">《调查》</a><em>|</em>
+				<a href="#">《问答》</a>
+			</p>
+		</div>
+	</div>
+	<div class="look">
+		<p class="fc iconfont">快速找车<i>&#xe67d;</i></p>
+		<form>
+			<input type="text" value="请输入关键字" id="txt">
+			<button id="but1">查找</button>
+			<p class="pc iconfont">品牌找车<i>&#xe67d;</i></p>
+			<select class="xl">
+				<option>选择品牌</option>
+				<option>大众</option>
+				<option>宝马</option>
+				<option>奔驰</option>
+				<option>宝骏</option>
+			</select>
+			<select class="dow">
+				<option>选择车系</option>
+				<option>5系</option>
+				<option>X系</option>
+				<option>3系</option>
+				<option>迈腾</option>
+			</select>
+			<button id="but2">查找</button>
+		</form>
+		<p class="cxk iconfont">车型库<i>&#xe67d;</i></p>
+		<p class="style">
+			<a href="#" class="actc" id="act">按品牌</a><em>|</em>
+			<a href="#" id="act">按价格</a><em>|</em>
+			<a href="#" id="act">按级别</a><em>|</em>
+			<a href="#" id="act">按拼音</a>
+		</p>
+	</div>
+	<div class="math">
+		<div id="igs">
+		      <a class="ig" href="###"><img src="images/qcds.gif"/></a>
+		      <a class="ig" href="###"><img src="images/timg (2).jpg"/></a>
+		      <a class="ig" href="###"><img src="images/timg (3).jpg"/></a>
+		      <a class="ig" href="###"><img src="images/timg (2).jpg"/></a>
+		      <a class="ig" href="###"><img src="images/timg (3).jpg"/></a>
+		      <ul id="tabs">
+		        <li class="tab act"></li>
+		        <li class="tab"></li>
+		        <li class="tab"></li>
+		        <li class="tab"></li>
+		        <li class="tab"></li>
+		      </ul>
+		    </div>
+		<div class="cont">
+			<p class="kuai">
+				<span class="re">Hot</span>
+				<span class="zi">FSC&nbsp;焦点推荐</span>
+			</p>
+		</div>
+	</div>
+	<!--banner部分的开始-->
+	<div class="banner">
+		<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/banner.gif"></div>
+        <div class="swiper-slide"><img src="images/timg (1).jpg"></div>
+        <div class="swiper-slide"><img src="images/timg.jpg"></div>
+        <div class="swiper-slide"><img src="images/banner.gif"></div>
+        <div class="swiper-slide"><img src="images/timg (1).jpg"></div>
+        <div class="swiper-slide"><img src="images/timg.jpg"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev" id="prev"></div>
+    <div class="swiper-button-next" id="prev"></div>
+    <div class="swiper-scrollbar"></div>
+		</div>
+	</div>
+	<!--第二个轮播图开始-->
+	<div class="ban2">
+		<h1>精彩剧集</h1>
+			<ul id="imgs">
+				<li><a href="#"><img src="images/car1.png" alt="1"></a></li>
+				<li><a href="#"><img src="images/car2.png" alt="2"></a></li>
+				<li><a href="#"><img src="images/car3.png" alt="3"></a></li>
+				<li><a href="#"><img src="images/car4.png" alt="1"></a></li>
+				<li class="er"><a href="#"><img src="images/car1.png" alt="2"></a></li>
+				<li><a href="#"><img src="images/car2.png" alt="3"></a></li>
+				<li><a href="#"><img src="images/car3.png" alt="1"></a></li>
+				<li><a href="#"><img src="images/car4.png" alt="2"></a></li>
+			</ul>
+			<div id="btn">
+				<span></span>
+				<span></span>
+			</div>
+			<p class="butt">
+				<a href="###" class="a" id="shang">
+					<img src="images/sj (2).png">
+				</a>
+				<a href="###" class="a" id="xia">
+					<img src="images/sj (1).png">
+				</a>
+			</p>
+	</div>
+	<div class="bd">
+		<div class="ct_o">
+			<p class="le">01</p>
+			<span class="le_s">北京工业大学&nbsp;&gt;&nbsp;BISD车队</span>
+			<p class="ri">
+				目前总成绩：<span class="jll">960</span>分
+			</p>
+		</div>
+		<div class="zuos">
+			<div class="im">
+				<img src="images/01.png">
+				<p class="link">
+					<a href="#">官方微博</a><em>|</em>
+					<a href="#">最新动态</a>
+				</p>
+			</div>
+		</div>
+		<div class="zhongs">
+			<ul class="u_o">
+				<li class="f hui">静态项目</li>
+				<li>营销报告</li>
+				<li><span class="ys">75</span></li>
+				<li>赛车设计</li>
+				<li><span class="ys">150</span></li>
+				<li>成本分析</li>
+				<li><span class="ys">100</span></li>
+			</ul>
+			<ul class="u_o">
+				<li class="hui">动态项目</li>
+				<li>直线加速测试</li>
+				<li><span class="ys">75</span></li>
+				<li>8字绕环测试</li>
+				<li><span class="ys">50</span></li>
+				<li><span class="y">&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+			</ul>
+			<ul class="kuan">
+				<li class="fk"></li>
+				<li class="long">
+					<ul class="u_o l">
+						<li>高速避障测试</li>
+						<li><span class="ys">90</span></li>
+						<li>耐久度测试</li>
+						<li><span class="ys">50</span></li>
+						<li><span class="yy">&nbsp;&nbsp;&nbsp;</span></li>
+					</ul>
+					<ul class="u_o l">
+						<li>燃油经济测试</li>
+						<li><span class="ys">100</span></li>
+						<li class="longest">&nbsp;</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="u_o l last">
+				<li class="w">总分</li>
+				<li class="lasts" style="text-align: left;"><span class="ys">690</span></li>
+			</ul>
+		</div>
+		<div class="yous">
+			<ul class="hou">
+				<li style="width: 60px; color: #949494;">指导老师：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队队长：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队成员：</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+			</ul>
+		</div>
+	</div>
+	<div class="null"></div>
+	<div class="bd">
+		<div class="ct_o">
+			<p class="le">34</p>
+			<span class="le_s">西安科技汽车职业技术学院 > BISD车队</span>
+			<p class="ri">
+				目前总成绩：<span class="jll">960</span>分
+			</p>
+		</div>
+		<div class="zuos">
+			<div class="im">
+				<img src="images/01.png">
+				<p class="link">
+					<a href="#">官方微博</a><em>|</em>
+					<a href="#">最新动态</a>
+				</p>
+			</div>
+		</div>
+		<div class="zhongs">
+			<ul class="u_o">
+				<li class="f hui">静态项目</li>
+				<li>营销报告</li>
+				<li><span class="ys">75</span></li>
+				<li>赛车设计</li>
+				<li><span class="ys">150</span></li>
+				<li>成本分析</li>
+				<li><span class="ys">100</span></li>
+			</ul>
+			<ul class="u_o">
+				<li class="hui">动态项目</li>
+				<li>直线加速测试</li>
+				<li><span class="ys">75</span></li>
+				<li>8字绕环测试</li>
+				<li><span class="ys">50</span></li>
+				<li><span class="y">&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+			</ul>
+			<ul class="kuan">
+				<li class="fk"></li>
+				<li class="long">
+					<ul class="u_o l">
+						<li>高速避障测试</li>
+						<li><span class="ys">90</span></li>
+						<li>耐久度测试</li>
+						<li><span class="ys">50</span></li>
+						<li><span class="yy">&nbsp;&nbsp;&nbsp;</span></li>
+					</ul>
+					<ul class="u_o l">
+						<li>燃油经济测试</li>
+						<li><span class="ys">100</span></li>
+						<li class="longest">&nbsp;</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="u_o l last">
+				<li class="w">总分</li>
+				<li class="lasts" style="text-align: left;"><span class="ys">690</span></li>
+			</ul>
+		</div>
+		<div class="yous">
+			<ul class="hou">
+				<li style="width: 60px; color: #949494;">指导老师：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队队长：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队成员：</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+			</ul>
+		</div>
+	</div>
+	<div class="null"></div>
+	<div class="bd">
+		<div class="ct_o">
+			<p class="le">E1</p>
+			<span class="le_s">The Notice of 2012 FSC Recommended Logistics Agent
+</span>
+			<p class="ri">
+				目前总成绩：<span class="jll">960</span>分
+			</p>
+		</div>
+		<div class="zuos">
+			<div class="im">
+				<img src="images/01.png">
+				<p class="link">
+					<a href="#">官方微博</a><em>|</em>
+					<a href="#">最新动态</a>
+				</p>
+			</div>
+		</div>
+		<div class="zhongs">
+			<ul class="u_o">
+				<li class="f hui">静态项目</li>
+				<li>营销报告</li>
+				<li><span class="ys">75</span></li>
+				<li>赛车设计</li>
+				<li><span class="ys">150</span></li>
+				<li>成本分析</li>
+				<li><span class="ys">100</span></li>
+			</ul>
+			<ul class="u_o">
+				<li class="hui">动态项目</li>
+				<li>直线加速测试</li>
+				<li><span class="ys">75</span></li>
+				<li>8字绕环测试</li>
+				<li><span class="ys">50</span></li>
+				<li><span class="y">&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+			</ul>
+			<ul class="kuan">
+				<li class="fk"></li>
+				<li class="long">
+					<ul class="u_o l">
+						<li>高速避障测试</li>
+						<li><span class="ys">90</span></li>
+						<li>耐久度测试</li>
+						<li><span class="ys">50</span></li>
+						<li><span class="yy">&nbsp;&nbsp;&nbsp;</span></li>
+					</ul>
+					<ul class="u_o l">
+						<li>燃油经济测试</li>
+						<li><span class="ys">100</span></li>
+						<li class="longest">&nbsp;</li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="u_o l last">
+				<li class="w">总分</li>
+				<li class="lasts" style="text-align: left;"><span class="ys">690</span></li>
+			</ul>
+		</div>
+		<div class="yous">
+			<ul class="hou">
+				<li style="width: 60px; color: #949494;">指导老师：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队队长：</li>
+				<li>李顺虎</li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li style="width: 60px; color: #949494;">车队成员：</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+				<li style="width: 60px; color: #949494;"></li>
+				<li>李顺虎</li>
+				<li>李顺虎</li>
+			</ul>
+		</div>
+	</div>
+	<div class="tuji">
+		<div class="tj">
+			FSC赛事图集
+		</div>
+		<div class="more"><a href="#">更多>></a></div>
+	</div>
+	<div class="pic_o">
+		<ul>
+			<li><a href="#"><img src="images/fsc1.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc2.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc3.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc4.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc1.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc1.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc2.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc3.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc4.png" alt=""></a></li>
+			<li><a href="#"><img src="images/fsc1.png" alt=""></a></li>
+		</ul>
+	</div>
+	<div class="pic_t">
+		<ul>
+			<li><a href="#"><img src="images/mei1.png" alt=""></a><p>夜色女郎遇豪华跑车</p></li>
+			<li><a href="#"><img src="images/mei2.gif" alt=""></a><p>夜色女郎遇豪华跑车</p></li>
+			<li><a href="#"><img src="images/mei3.gif" alt=""></a><p>夜色女郎遇豪华跑车</p></li>
+			<li><a href="#"><img src="images/mei4.gif" alt=""></a><p>夜色女郎遇豪华跑车</p></li>
+			<li><a href="#"><img src="images/mei5.gif" alt=""></a><p>夜色女郎遇豪华跑车</p></li>
+		</ul>
+	</div>
+	<div class="tuijian">
+		<h3>编辑推荐文章</h3>
+		<ul>
+			<li>
+				<img src="images/che1.gif" alt="">
+				<h4>完全满足日常需求！试驾新福克斯</h4>
+				<p>新福克斯从2012年4月上市至今3个月依赖，始终占据汽车之友紧凑型车以及全国国产车关注度第一的位置，可见这车现在有多热！在今年3月，我们也对新福克斯车型进行了详细测试并对他的表现给与了很高的评价..<a href="#">[详细]</a></p>
+			</li>
+			<li>
+				<img src="images/che2.gif" alt="">
+				<h4>完全满足日常需求！试驾新福克斯</h4>
+				<p>新福克斯从2012年4月上市至今3个月依赖，始终占据汽车之友紧凑型车以及全国国产车关注度第一的位置，可见这车现在有多热！在今年3月，我们也对新福克斯车型进行了详细测试并对他的表现给与了很高的评价..<a href="#">[详细]</a></p>
+			</li>
+		</ul>
+		<footer>
+			<div class="top">
+				<a href="#">关于我们</a><em>|</em>
+				<a href="#">AutoFan动态</a><em>|</em>
+				<a href="#">主编社区</a><em>|</em>
+				<a href="#">联系我们</a><em>|</em>
+				<a href="#">网站地图</a><em>|</em>
+				<a href="#">招贤纳士</a><em>|</em>
+				<a href="#">友情链接</a><em>|</em>
+				<a href="#">百度新闻资源</a>
+			</div>
+			<p>Copyright (c) 2004- 2012 AutoPa com c A1I BIEtE Beserved 质权所有汽车之友京ICP:EF040935号-1
+			<span>
+				<img src="images/tubiao1.png">
+			</span>
+			<span>
+				<img src="images/tubiao2.png">
+			</span>
+		</p>
+		</footer>
+	</div>
+	<script src="js/style.js"></script>
+</html>
